@@ -1,0 +1,1280 @@
+[
+ {
+  "alimento": "Arroz blanco corriente",
+  "coccion": "Sancochado",
+  "factor": 0.51,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Maiz fresco (choclo) en grano",
+  "coccion": "Sancochado",
+  "factor": 0.94,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Arroz blanco corriente",
+  "coccion": "Graneado",
+  "factor": 0.43,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Maiz fresco (choclo) entero",
+  "coccion": "Sancochado",
+  "factor": 1.02,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Arroz blanco corriente",
+  "coccion": "Panetela",
+  "factor": 0.28,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Maíz pelado seco",
+  "coccion": "Sancochado",
+  "factor": 0.44,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Arroz blanco corriente",
+  "coccion": "Tostado",
+  "factor": 1.18,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Maíz mote",
+  "coccion": "Sancochado",
+  "factor": 0.46,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Avena, hojuelas de",
+  "coccion": "Sancochada",
+  "factor": 0.13,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Maíz",
+  "coccion": "Tostado c/aceite",
+  "factor": 0.93,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Cebada perlada",
+  "coccion": "Sancochada",
+  "factor": 0.37,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Maíz",
+  "coccion": "Tostado s/ aceite",
+  "factor": 1.17,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Cebada",
+  "coccion": "Tostada",
+  "factor": 1.16,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Pan",
+  "coccion": "Frito",
+  "factor": 0.92,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Fideo tallarín delgado",
+  "coccion": "Sancochado",
+  "factor": 0.34,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Quinua blanca",
+  "coccion": "Sancochado",
+  "factor": 0.23,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Fideo tallarín grueso",
+  "coccion": "Sancochado",
+  "factor": 0.4,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Quinua blanca",
+  "coccion": "Tostada",
+  "factor": 1.18,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Fideo cabello de angel",
+  "coccion": "Sancochado",
+  "factor": 0.25,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Quinua roja",
+  "coccion": "Sancochada",
+  "factor": 0.23,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Fideo corbata",
+  "coccion": "Sancochado",
+  "factor": 0.52,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Trigo pelado",
+  "coccion": "Sancochado",
+  "factor": 0.41,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Fideo entrefino",
+  "coccion": "Sancochado",
+  "factor": 0.31,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Fideo entrefino",
+  "coccion": "Tostado",
+  "factor": 1.13,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Fideo especial de huevo",
+  "coccion": "Frito",
+  "factor": 0.93,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Fideo especial de huevo",
+  "coccion": "Tostado",
+  "factor": 1.11,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Kiwicha",
+  "coccion": "Tostado",
+  "factor": 1.16,
+  "pagina_pdf": 77
+ },
+ {
+  "alimento": "Ajo",
+  "coccion": "Sancochado",
+  "factor": 1.01,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Frijolito chino",
+  "coccion": "Sancochado",
+  "factor": 1.03,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Acelga",
+  "coccion": "Sancochada",
+  "factor": 1.25,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Nabo",
+  "coccion": "Sancochado",
+  "factor": 1.07,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Ají verde",
+  "coccion": "Sancochado",
+  "factor": 1.19,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Pacchoy",
+  "coccion": "Sancochado",
+  "factor": 0.98,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Albahaca",
+  "coccion": "Sancochada",
+  "factor": 1.51,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Pimiento fresco",
+  "coccion": "Sancochado",
+  "factor": 1.01,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Alcachofa",
+  "coccion": "Sancochada",
+  "factor": 2.81,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Rocoto",
+  "coccion": "Sancochado",
+  "factor": 1.0,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Apio",
+  "coccion": "Sancochado",
+  "factor": 0.99,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Tomate italiano (marsano)",
+  "coccion": "Sancochado",
+  "factor": 1.06,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Berenjena",
+  "coccion": "Sancochada",
+  "factor": 0.85,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Tomate",
+  "coccion": "Frito",
+  "factor": 1.59,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Vainitas",
+  "coccion": "Sancochado",
+  "factor": 0.95,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Brócoli",
+  "coccion": "Sancochado",
+  "factor": 0.89,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Zanahoria amarilla",
+  "coccion": "Sancochado",
+  "factor": 1.01,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Caigua",
+  "coccion": "Sancochado",
+  "factor": 1.2,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Zapallo macre",
+  "coccion": "Sancochado",
+  "factor": 1.14,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Calabaza china",
+  "coccion": "Sancochada",
+  "factor": 1.05,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Zapallito italiano",
+  "coccion": "Sancochado",
+  "factor": 1.17,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Cebolla china",
+  "coccion": "Frita",
+  "factor": 1.29,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Cebolla china",
+  "coccion": "Sancochada",
+  "factor": 1.01,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Cebolla de cabeza (roja)",
+  "coccion": "Sancochada",
+  "factor": 1.09,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Cebolla de cabeza (roja)",
+  "coccion": "Frita",
+  "factor": 1.59,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Col",
+  "coccion": "Sancochada",
+  "factor": 0.99,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Coliflor",
+  "coccion": "Sancochada",
+  "factor": 0.85,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Culantro",
+  "coccion": "Sancochada",
+  "factor": 0.91,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Espárrago",
+  "coccion": "Sancochada",
+  "factor": 2.74,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Espinaca",
+  "coccion": "Sancochada",
+  "factor": 1.69,
+  "pagina_pdf": 78
+ },
+ {
+  "alimento": "Aceituna",
+  "coccion": "Sancochada",
+  "factor": 0.52,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Guindones secos",
+  "coccion": "Sancochados",
+  "factor": 0.69,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Higo seco",
+  "coccion": "Sancochado",
+  "factor": 0.67,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Huesillo seco",
+  "coccion": "Sancochado",
+  "factor": 0.58,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Manzana",
+  "coccion": "Sancochada",
+  "factor": 0.9,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Melocotón",
+  "coccion": "Sancochado",
+  "factor": 0.99,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Membrillo",
+  "coccion": "Sancochado",
+  "factor": 0.96,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "FRUTAS Piña",
+  "coccion": "Sancochada",
+  "factor": 1.14,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Plátano bellaco verde",
+  "coccion": "Frito",
+  "factor": 1.15,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Plátano bellaco verde",
+  "coccion": "Sancochado",
+  "factor": 1.03,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Plátano bellaco maduro",
+  "coccion": "Frito",
+  "factor": 1.15,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Plátano bellaco maduro",
+  "coccion": "Horneado",
+  "factor": 1.34,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Plátano bellaco maduro",
+  "coccion": "Sancochado",
+  "factor": 1.03,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Plátano de isla",
+  "coccion": "Frito",
+  "factor": 1.14,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Plátano de isla",
+  "coccion": "Sancochado",
+  "factor": 0.91,
+  "pagina_pdf": 79
+ },
+ {
+  "alimento": "Boquichico, trozo mediano",
+  "coccion": "Sancochado",
+  "factor": 1.13,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Pejerrey",
+  "coccion": "Sancochado",
+  "factor": 1.5,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Caballa, trozo mediano",
+  "coccion": "Sancochado",
+  "factor": 1.05,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Pejerrey",
+  "coccion": "Frito",
+  "factor": 2.12,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Caballa, filete",
+  "coccion": "Frito",
+  "factor": 1.56,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Toyo",
+  "coccion": "Sancochado",
+  "factor": 1.43,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Coco",
+  "coccion": "Al vapor",
+  "factor": 1.21,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Trucha",
+  "coccion": "Frito",
+  "factor": 1.52,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Coco",
+  "coccion": "Frito",
+  "factor": 1.6,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Coco",
+  "coccion": "Sancochado",
+  "factor": 1.18,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Huevera de cojinova",
+  "coccion": "Frita",
+  "factor": 1.7,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Almejaω",
+  "coccion": "Sancochado",
+  "factor": 1.98,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Jurel",
+  "coccion": "Sancochado",
+  "factor": 1.24,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Camarón de ríoφ",
+  "coccion": "Sancochado",
+  "factor": 1.06,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Jurel",
+  "coccion": "Frito",
+  "factor": 1.41,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Camarón de ríoφφ",
+  "coccion": "Sancochado",
+  "factor": 1.24,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Lisa",
+  "coccion": "Sancochado",
+  "factor": 1.58,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Camarón de ríoφ",
+  "coccion": "Frito",
+  "factor": 1.52,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Lorna",
+  "coccion": "Frita",
+  "factor": 1.55,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Camarón de ríoφφ",
+  "coccion": "Frito",
+  "factor": 1.56,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Lorna",
+  "coccion": "Sancochado",
+  "factor": 1.36,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Choros",
+  "coccion": "Sancochado",
+  "factor": 1.64,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Machete",
+  "coccion": "Sancochado",
+  "factor": 1.23,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Conchas de abanico",
+  "coccion": "Sancochado",
+  "factor": 2.12,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Merluza, filete",
+  "coccion": "Sancochado",
+  "factor": 1.31,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Conchas de abanico",
+  "coccion": "Frito",
+  "factor": 2.13,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Merluza filete",
+  "coccion": "Frito",
+  "factor": 1.54,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Pota",
+  "coccion": "Sancochado",
+  "factor": 2.06,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Merluza, trozo mediano",
+  "coccion": "Sancochado",
+  "factor": 1.31,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Pota",
+  "coccion": "Frito",
+  "factor": 2.06,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Merluza",
+  "coccion": "Al vapor",
+  "factor": 1.2,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Palometa",
+  "coccion": "Sancochado",
+  "factor": 1.04,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Palometa",
+  "coccion": "Frito",
+  "factor": 1.94,
+  "pagina_pdf": 80
+ },
+ {
+  "alimento": "Ala",
+  "coccion": "Sancochado",
+  "factor": 1.18,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Pierna",
+  "coccion": "Frita",
+  "factor": 1.42,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Ala",
+  "coccion": "Frito",
+  "factor": 1.58,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Rabadilla",
+  "coccion": "Sancochada",
+  "factor": 1.25,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Brazuelo",
+  "coccion": "Sancochado",
+  "factor": 1.38,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Rabadilla",
+  "coccion": "Frita",
+  "factor": 1.51,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Brazuelo",
+  "coccion": "Frito",
+  "factor": 1.5,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Ala - brazuelo",
+  "coccion": "Sancochado",
+  "factor": 1.3,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Llama/alpaca, charqui de",
+  "coccion": "Sancochado",
+  "factor": 1.06,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Ala - brazuelo",
+  "coccion": "Frito",
+  "factor": 1.53,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Bofe",
+  "coccion": "Sancochado",
+  "factor": 1.19,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Corazón",
+  "coccion": "Sancochado",
+  "factor": 1.45,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Hígado",
+  "coccion": "Frito",
+  "factor": 1.57,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Entero con menudencia",
+  "coccion": "Sancochado",
+  "factor": 1.33,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Entero sin menudencia",
+  "coccion": "Sancochado",
+  "factor": 1.25,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Carne",
+  "coccion": "Frito",
+  "factor": 1.78,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Pollo, espinazo de",
+  "coccion": "Sancochado",
+  "factor": 1.39,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Pollo, espinazo de",
+  "coccion": "Frito",
+  "factor": 1.44,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Carne",
+  "coccion": "Horneada",
+  "factor": 1.86,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Pollo, entrepierna de",
+  "coccion": "Sancochado",
+  "factor": 1.44,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Carne",
+  "coccion": "Sancochado",
+  "factor": 1.83,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Pollo, entrepierna de",
+  "coccion": "Frito",
+  "factor": 1.65,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Carne molida (hamburguesa)",
+  "coccion": "Frito",
+  "factor": 1.16,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Hígado",
+  "coccion": "Sancochado",
+  "factor": 1.39,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Criadilla",
+  "coccion": "Sancochada",
+  "factor": 2.15,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Hígado",
+  "coccion": "Frito",
+  "factor": 1.37,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Mondongo",
+  "coccion": "Sancochado",
+  "factor": 1.45,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Filete",
+  "coccion": "Frito",
+  "factor": 1.59,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Pata",
+  "coccion": "Sancochada",
+  "factor": 1.04,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Pechuga, trozo deα",
+  "coccion": "Sancochado",
+  "factor": 1.48,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Riñón",
+  "coccion": "Sancochado",
+  "factor": 2.0,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Pechuga, trozo deα",
+  "coccion": "Frito",
+  "factor": 1.46,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Riñón",
+  "coccion": "Frito",
+  "factor": 1.91,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Pollo, pescuezo de",
+  "coccion": "Sancochado",
+  "factor": 1.42,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Seso",
+  "coccion": "Sancochado",
+  "factor": 1.11,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Pollo, pescuezo de",
+  "coccion": "Frito",
+  "factor": 1.58,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Pierna",
+  "coccion": "Sancochado",
+  "factor": 1.22,
+  "pagina_pdf": 81
+ },
+ {
+  "alimento": "Carne",
+  "coccion": "Sancochado",
+  "factor": 1.6,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Corazón",
+  "coccion": "Sancochado",
+  "factor": 1.67,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Carne",
+  "coccion": "Horneado",
+  "factor": 2.78,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Hígado",
+  "coccion": "Frito",
+  "factor": 1.38,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Carne",
+  "coccion": "Sancochado",
+  "factor": 1.75,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Mondongo",
+  "coccion": "Sancochado",
+  "factor": 1.97,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Seso",
+  "coccion": "Sancochado",
+  "factor": 1.06,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Corazón",
+  "coccion": "Sancochado",
+  "factor": 1.73,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Charqui",
+  "coccion": "Sancochado",
+  "factor": 1.08,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Hígado",
+  "coccion": "Sancochado",
+  "factor": 1.62,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Molleja",
+  "coccion": "Sancochado",
+  "factor": 1.58,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Carneπ",
+  "coccion": "Sancochada",
+  "factor": 1.77,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Pata",
+  "coccion": "Sancochado",
+  "factor": 1.02,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Carneπ",
+  "coccion": "Frita",
+  "factor": 2.01,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Carneπ",
+  "coccion": "Sancochada",
+  "factor": 1.77,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Carne",
+  "coccion": "Horneado",
+  "factor": 1.77,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Carneπ",
+  "coccion": "Frita",
+  "factor": 2.45,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Carne",
+  "coccion": "Sancochado",
+  "factor": 1.46,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Carne",
+  "coccion": "Sancochado",
+  "factor": 1.66,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Chicharon",
+  "coccion": "Frito",
+  "factor": 1.78,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Chuleta",
+  "coccion": "Frito",
+  "factor": 1.73,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Pata",
+  "coccion": "Sancochado",
+  "factor": 1.27,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Relleno",
+  "coccion": "Frito",
+  "factor": 1.27,
+  "pagina_pdf": 82
+ },
+ {
+  "alimento": "Entero",
+  "coccion": "Sancochado",
+  "factor": 1.04,
+  "pagina_pdf": 83
+ },
+ {
+  "alimento": "Entero",
+  "coccion": "Sancochado",
+  "factor": 1.04,
+  "pagina_pdf": 83
+ },
+ {
+  "alimento": "Clara",
+  "coccion": "Sancochado",
+  "factor": 1.03,
+  "pagina_pdf": 83
+ },
+ {
+  "alimento": "Yema",
+  "coccion": "Sancochado",
+  "factor": 1.06,
+  "pagina_pdf": 83
+ },
+ {
+  "alimento": "Entero",
+  "coccion": "Pasado",
+  "factor": 1.03,
+  "pagina_pdf": 83
+ },
+ {
+  "alimento": "Entero",
+  "coccion": "Frito",
+  "factor": 1.1,
+  "pagina_pdf": 83
+ },
+ {
+  "alimento": "Clara",
+  "coccion": "Frito",
+  "factor": 1.04,
+  "pagina_pdf": 83
+ },
+ {
+  "alimento": "Yema",
+  "coccion": "Frito",
+  "factor": 0.95,
+  "pagina_pdf": 83
+ },
+ {
+  "alimento": "Maní",
+  "coccion": "Tostado",
+  "factor": 1.11,
+  "pagina_pdf": 83
+ },
+ {
+  "alimento": "Maní",
+  "coccion": "Sancochado",
+  "factor": 0.66,
+  "pagina_pdf": 83
+ },
+ {
+  "alimento": "Arveja fresca",
+  "coccion": "Sancochado",
+  "factor": 1.03,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Betarraga, entero",
+  "coccion": "Sancochado",
+  "factor": 1.05,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Arveja seca partida",
+  "coccion": "Sancochado",
+  "factor": 0.44,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Betarraga, rodajas",
+  "coccion": "Sancochado",
+  "factor": 1.09,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Frijol canario",
+  "coccion": "Sancochado",
+  "factor": 0.51,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Betarraga, cubos",
+  "coccion": "Sancochado",
+  "factor": 1.08,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Frijol castilla",
+  "coccion": "Sancochado",
+  "factor": 0.48,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Camote amarillo, entero",
+  "coccion": "Sancochado",
+  "factor": 1.03,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Frijol negro",
+  "coccion": "Sancochado",
+  "factor": 0.51,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Camote amarillo, rodajas",
+  "coccion": "Frito",
+  "factor": 1.34,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Frijol panamito",
+  "coccion": "Sancochado",
+  "factor": 0.48,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Camote morado, entero",
+  "coccion": "Sancochado",
+  "factor": 1.02,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Frijol zarandaja",
+  "coccion": "Sancochado",
+  "factor": 0.47,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Mashua",
+  "coccion": "Sancochada",
+  "factor": 1.11,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Garbanzo",
+  "coccion": "Sancochado",
+  "factor": 0.49,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Oca, entero",
+  "coccion": "Sancochado",
+  "factor": 0.99,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Haba fresca con cáscara",
+  "coccion": "Sancochado",
+  "factor": 0.92,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Olluco, picado tipo juliana",
+  "coccion": "Sancochado",
+  "factor": 1.05,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Haba fresca sin cáscara",
+  "coccion": "Sancochado",
+  "factor": 0.8,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Papa amarilla, entera",
+  "coccion": "Sancochado",
+  "factor": 1.02,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Haba seca partida",
+  "coccion": "Sancochado",
+  "factor": 0.46,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Papa blanca perricholi, entera",
+  "coccion": "Sancochado",
+  "factor": 1.02,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Haba seca con cáscara",
+  "coccion": "Tostado",
+  "factor": 1.35,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Papa blanca perricholi, bastones",
+  "coccion": "Frito",
+  "factor": 1.72,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Lenteja chica",
+  "coccion": "Sancochado",
+  "factor": 0.43,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Papa blanca, entera",
+  "coccion": "Horneada",
+  "factor": 1.43,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Lenteja grande",
+  "coccion": "Sancochado",
+  "factor": 0.39,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Papa huayro, entera",
+  "coccion": "Sancochado",
+  "factor": 1.03,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Pallar seco (con cáscara)",
+  "coccion": "Sancochado",
+  "factor": 0.56,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Papa huayro, bastones",
+  "coccion": "Frito",
+  "factor": 1.44,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Pallar seco (sin cáscara)",
+  "coccion": "Sancochado",
+  "factor": 0.44,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Papa seca",
+  "coccion": "Sancochado",
+  "factor": 0.35,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Yacón",
+  "coccion": "Sancochado",
+  "factor": 1.16,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Yuca amarilla, trozo",
+  "coccion": "Sancochado",
+  "factor": 1.02,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Yuca amarilla, bastones",
+  "coccion": "Frito",
+  "factor": 1.35,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Yuca blanca, trozo",
+  "coccion": "Sancochado",
+  "factor": 0.98,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Yuca blanca, bastones",
+  "coccion": "Frito",
+  "factor": 1.36,
+  "pagina_pdf": 84
+ },
+ {
+  "alimento": "Yuca blanca, trozo",
+  "coccion": "Horneado",
+  "factor": 1.55,
+  "pagina_pdf": 84
+ }
+]

@@ -1,0 +1,81 @@
+
+=== DESAYUNO: Papa sancochada con huevo revuelto ===
+  Hombre, 38 años: 1 ½ papas, 1 huevo
+  Mujer, 34 años: ½ papa, 1 huevo
+  Hombre, 11 años: 1 ½ papas, 1 huevo
+  Mujer, 6 años: 1 papa, 1 huevo
+  Para cocinar todo:
+    - Papa amarilla sin cáscara: 4 ½ unidades medianas (731 g)
+    - Huevo de gallina entero, crudo: 4 unidades (240 g)
+    - Aceite vegetal de soya: 1 cucharada (7 g)
+
+=== ALMUERZO: Lentejas con arroz y ensalada ===
+  Hombre, 38 años: 2 ¼ tazas de arroz, ¾ taza de lentejas, ½ taza de ensalada
+  Mujer, 34 años: 1 ¾ tazas de arroz, 1 ¼ tazas de lentejas, ¼ taza de ensalada
+  Hombre, 11 años: 1 ½ tazas de arroz, ½ taza de lentejas, ½ taza de ensalada
+  Mujer, 6 años: ½ taza de arroz, ¼ taza de lentejas, ¼ taza de ensalada
+  Para cocinar todo:
+    - Arroz blanco corriente: 1 ¾ tazas (499 g)
+    - Aceite vegetal de soya: 2 cucharadas (12 g)
+    - Lentejas grandes: 1 taza (240 g)
+    - Cebolla de cabeza: ¾ unidad (146 g)
+    - Ajo sin cáscara: ¼ cabeza (8 g)
+    - Zanahoria: 1 ½ unidades (225 g)
+    - Limón, jugo de: ¾ unidad (12 g)
+  Consejo: Exprime limón sobre las menestras o la ensalada: ayuda a absorber el hierro.
+  Consejo: Si toman infusión o té, mejor 1 hora después de comer: reduce la absorción del hierro.
+
+=== CENA: Sopa de papa con arroz y verduras ===
+  Hombre, 38 años: 1 ½ cucharones de sopa
+  Mujer, 34 años: 1 cucharón de sopa
+  Hombre, 11 años: 1 cucharón de sopa
+  Mujer, 6 años: 1 cucharón de sopa
+  Para cocinar todo:
+    - Papa amarilla sin cáscara: 1 ¼ unidades medianas (202 g)
+    - Arroz blanco corriente: ¼ taza (45 g)
+    - Zanahoria: ½ unidad (68 g)
+    - Cebolla de cabeza: ¼ unidad (45 g)
+    - Ajo sin cáscara: ¼ cabeza (4 g)
+  Consejo: Sin refrigeradora: prepara solo lo de la noche y no guardes sobras para el día siguiente.
+
+=== COBERTURA DEL DÍA (comidas elegidas, % del requerimiento) ===
+  Hombre, 38 años (3536 kcal/día, peso 64.0 kg, medido):
+    energía 43% · proteína 98% · hierro 74% · zinc 131% · calcio 18% · vit. A 213% · vit. C 101%
+  Mujer, 34 años (2833 kcal/día, peso 50.8 kg, referencia por sexo):
+    energía 43% · proteína 89% · hierro 72% · zinc 139% · calcio 17% · vit. A 86% · vit. C 36%
+  Hombre, 11 años (2576 kcal/día, peso 35.6 kg, referencia por edad y sexo):
+    energía 45% · proteína 124% · hierro 55% · zinc 79% · calcio 11% · vit. A 198% · vit. C 102%
+  Mujer, 6 años (1300 kcal/día, peso 20.2 kg, referencia por edad y sexo):
+    energía 50% · proteína 131% · hierro 80% · zinc 80% · calcio 15% · vit. A 162% · vit. C 90%
+
+=== SOBRA EN LA DESPENSA ===
+  Papa amarilla sin cáscara: ¼ unidad mediana
+  Zanahoria: ¼ unidad
+  Ajo sin cáscara: ¾ cabeza
+  Limón, jugo de: 2 ¼ unidades
+
+=== RECETAS DESCARTADAS ===
+  desayuno: Quinua graneada con queso (faltan queso, quinua)
+  desayuno: Avena con leche y pan (faltan avena, pan)
+  desayuno: Mote de maíz con queso (faltan maiz_mote, queso)
+  desayuno: Habas sancochadas con queso (faltan habas_frescas, queso)
+  desayuno: Camote sancochado con huevo (faltan camote)
+  desayuno: Pan con palta (faltan palta, pan)
+  desayuno: Quinua caliente con pan (faltan pan, quinua)
+  almuerzo: Cuy guisado con papa (faltan cuy)
+  almuerzo: Arroz con pollo (faltan pollo)
+  almuerzo: Frejol con arroz (faltan frejol)
+  almuerzo: Hígado de pollo encebollado con papa (faltan higado_pollo)
+  almuerzo: Trucha frita con papa (faltan trucha)
+  almuerzo: Locro de zapallo con arroz (faltan zapallo)
+  almuerzo: Sopa de trigo con habas (faltan habas_secas, trigo)
+  cena: Papa a la huancaína (faltan queso)
+  cena: Sopa de quinua (faltan quinua)
+  cena: Olluquito con arroz (faltan olluco)
+  cena: Sangrecita con papa (faltan sangrecita)
+  cena: Caldo de mote con habas (faltan habas_secas, maiz_mote)
+
+=== AVISOS ===
+  - La despensa alcanza para cerca del 46 % de la energía que necesitan en las comidas elegidas. Komo repartió lo disponible en la misma proporción para todos.
+  - Con esta despensa queda bajo: calcio, vit. C.
+  - Cocina con sal yodada, en poca cantidad.

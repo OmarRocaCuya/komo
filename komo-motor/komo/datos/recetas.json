@@ -1,0 +1,1257 @@
+{
+  "_nota": "Catálogo de PRUEBA. Cada componente se sirve en una medida casera; 'por_unidad_g' son los gramos crudos de cada ingrediente que lleva UNA medida servida. 'paso' es el redondeo permitido al servir. 'requiere' es una lista de grupos: en cada grupo basta con tener UNO de los utensilios. Jazmín debe validar recetas, gramos y medidas. 'base' es la porción de un plato estándar; el motor escala el plato completo por persona y permite variar cada componente entre 65 % y 135 % de esa proporción. 'opcionales' son ingredientes que se usan solo si están en la despensa (por ejemplo, el limón de la ensalada). 'estado': 'prueba' = receta del prototipo; 'borrador' = receta de la zona propuesta para que Jazmín la valide (los pesos 'Estimado' o 'PROVISIONAL' deben pesarse en campo). 'proporcion_min' (opcional) baja el mínimo de un componente respecto de la receta: se usa en acompañantes ricos en hierro que suelen ser escasos (sangrecita, hígado), para que una cantidad pequeña no limite el plato.",
+  "recetas": [
+    {
+      "id": "papa_huevo",
+      "nombre": "Papa sancochada con huevo revuelto",
+      "comida": "desayuno",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "papa",
+          "nombre": "",
+          "unidad": "papa",
+          "plural": "papas",
+          "paso": 0.5,
+          "max": 4,
+          "por_unidad_g": {
+            "papa": 162.5
+          },
+          "base": 1,
+          "fuente": "Papa amarilla, unidad mediana, peso neto 162,5 g (cód. 12-45); sancochada entera conserva el peso (factor 1,02)"
+        },
+        {
+          "id": "huevo",
+          "nombre": "",
+          "unidad": "huevo",
+          "plural": "huevos",
+          "paso": 1,
+          "max": 2,
+          "por_unidad_g": {
+            "huevo": 59.9,
+            "aceite": 3
+          },
+          "base": 1,
+          "fuente": "Huevo de gallina, unidad mediana, peso neto 59,9 g (cód. 8-3)"
+        }
+      ],
+      "pasos": [
+        "Sancocha las papas con cáscara en olla.",
+        "Bate los huevos y cocínalos en sartén con el aceite hasta que cuajen."
+      ],
+      "estado": "prueba"
+    },
+    {
+      "id": "quinua_queso",
+      "nombre": "Quinua graneada con queso",
+      "comida": "desayuno",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "quinua",
+          "nombre": "quinua",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 2,
+          "por_unidad_g": {
+            "quinua": 81.5
+          },
+          "base": 1,
+          "fuente": "Taza de loza al ras de quinua sancochada (354,5 g, cód. 1-155) x factor 0,23"
+        },
+        {
+          "id": "queso",
+          "nombre": "queso",
+          "unidad": "tajada",
+          "plural": "tajadas",
+          "paso": 1,
+          "max": 3,
+          "por_unidad_g": {
+            "queso": 19.4
+          },
+          "base": 1,
+          "fuente": "Tajada mediana delgada de queso fresco (19,4 g, cód. 7-22)"
+        }
+      ],
+      "pasos": [
+        "Lava bien la quinua y cocínala hasta que se abra el grano.",
+        "Sirve con tajadas de queso."
+      ],
+      "estado": "prueba"
+    },
+    {
+      "id": "lentejas_arroz",
+      "nombre": "Lentejas con arroz y ensalada",
+      "comida": "almuerzo",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "arroz",
+          "nombre": "arroz",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 3,
+          "por_unidad_g": {
+            "arroz": 83.1,
+            "aceite": 2
+          },
+          "base": 1,
+          "fuente": "Taza de loza al ras de arroz cocido (193,2 g, cód. 1-20) x factor graneado 0,43 (Tablas auxiliares 2016)"
+        },
+        {
+          "id": "lentejas",
+          "nombre": "lentejas",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 2.5,
+          "por_unidad_g": {
+            "lentejas": 87.4,
+            "cebolla": 15,
+            "ajo": 3,
+            "aceite": 3
+          },
+          "base": 0.75,
+          "fuente": "Taza de loza al ras de lenteja grande sancochada (224,0 g, cód. 11-122) x factor 0,39; aderezo provisional"
+        },
+        {
+          "id": "ensalada",
+          "nombre": "ensalada",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 1,
+          "por_unidad_g": {
+            "zanahoria": 150,
+            "cebolla": 70,
+            "limon": 8
+          },
+          "base": 0.5,
+          "opcionales": [
+            "limon"
+          ],
+          "fuente": "Taza de verduras picadas estimada con códigos 2-87 y 2-40; proporción zanahoria/cebolla provisional"
+        }
+      ],
+      "pasos": [
+        "Lava las lentejas y cocínalas en olla hasta que estén suaves.",
+        "Muele o pica el ajo y sofríelo con la cebolla y el aceite.",
+        "Une el aderezo a las lentejas y cocina el arroz.",
+        "Pica la zanahoria y la cebolla, y aliña con limón."
+      ],
+      "estado": "prueba"
+    },
+    {
+      "id": "arroz_huevo",
+      "nombre": "Arroz con huevo y ensalada",
+      "comida": "almuerzo",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "arroz",
+          "nombre": "arroz",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 3,
+          "por_unidad_g": {
+            "arroz": 83.1,
+            "aceite": 2
+          },
+          "base": 1,
+          "fuente": "Taza de loza al ras de arroz cocido (193,2 g, cód. 1-20) x factor graneado 0,43 (Tablas auxiliares 2016)"
+        },
+        {
+          "id": "huevo",
+          "nombre": "",
+          "unidad": "huevo",
+          "plural": "huevos",
+          "paso": 1,
+          "max": 2,
+          "por_unidad_g": {
+            "huevo": 59.9,
+            "aceite": 5
+          },
+          "base": 1,
+          "fuente": "Huevo de gallina, unidad mediana, peso neto 59,9 g (cód. 8-3)"
+        },
+        {
+          "id": "ensalada",
+          "nombre": "ensalada",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 1,
+          "por_unidad_g": {
+            "zanahoria": 150,
+            "cebolla": 70,
+            "limon": 8
+          },
+          "base": 0.5,
+          "opcionales": [
+            "limon"
+          ],
+          "fuente": "Taza de verduras picadas estimada con códigos 2-87 y 2-40; proporción zanahoria/cebolla provisional"
+        }
+      ],
+      "pasos": [
+        "Cocina el arroz.",
+        "Fríe los huevos en el aceite.",
+        "Pica la zanahoria y la cebolla, y aliña con limón."
+      ],
+      "estado": "prueba"
+    },
+    {
+      "id": "sopa_papa",
+      "nombre": "Sopa de papa con arroz y verduras",
+      "comida": "cena",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "sopa",
+          "nombre": "sopa",
+          "unidad": "cucharón",
+          "plural": "cucharones",
+          "paso": 0.5,
+          "max": 4,
+          "por_unidad_g": {
+            "papa": 45,
+            "arroz": 10,
+            "zanahoria": 15,
+            "cebolla": 10,
+            "ajo": 1
+          },
+          "base": 2,
+          "fuente": "PROVISIONAL: cucharón de sopa (~250 ml) sin dato en las Tablas auxiliares; pesar en campo"
+        }
+      ],
+      "pasos": [
+        "Hierve agua con el ajo y la cebolla picada.",
+        "Agrega la papa y la zanahoria en trozos, y luego el arroz.",
+        "Cocina hasta que el arroz esté suave."
+      ],
+      "estado": "prueba"
+    },
+    {
+      "id": "papa_ensalada",
+      "nombre": "Papa sancochada con ensalada",
+      "comida": "cena",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "papa",
+          "nombre": "",
+          "unidad": "papa",
+          "plural": "papas",
+          "paso": 0.5,
+          "max": 4,
+          "por_unidad_g": {
+            "papa": 162.5
+          },
+          "base": 1.5,
+          "fuente": "Papa amarilla, unidad mediana, peso neto 162,5 g (cód. 12-45); sancochada entera conserva el peso (factor 1,02)"
+        },
+        {
+          "id": "ensalada",
+          "nombre": "ensalada",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 1,
+          "por_unidad_g": {
+            "zanahoria": 150,
+            "cebolla": 70,
+            "limon": 8
+          },
+          "base": 0.5,
+          "opcionales": [
+            "limon"
+          ],
+          "fuente": "Taza de verduras picadas estimada con códigos 2-87 y 2-40; proporción zanahoria/cebolla provisional"
+        }
+      ],
+      "pasos": [
+        "Sancocha las papas con cáscara.",
+        "Pica la zanahoria y la cebolla, y aliña con limón."
+      ],
+      "estado": "prueba"
+    },
+    {
+      "id": "papa_huancaina",
+      "nombre": "Papa a la huancaína",
+      "comida": "cena",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ],
+        [
+          "licuadora",
+          "batan",
+          "molino"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "papa",
+          "nombre": "",
+          "unidad": "papa",
+          "plural": "papas",
+          "paso": 0.5,
+          "max": 4,
+          "por_unidad_g": {
+            "papa": 162.5
+          },
+          "base": 1.5,
+          "fuente": "Papa amarilla, unidad mediana, peso neto 162,5 g (cód. 12-45); sancochada entera conserva el peso (factor 1,02)"
+        },
+        {
+          "id": "crema",
+          "nombre": "crema de queso",
+          "unidad": "cucharada",
+          "plural": "cucharadas",
+          "paso": 1,
+          "max": 4,
+          "por_unidad_g": {
+            "queso": 12,
+            "aceite": 3
+          },
+          "base": 2,
+          "fuente": "PROVISIONAL: cucharada de crema de queso"
+        }
+      ],
+      "pasos": [
+        "Sancocha las papas.",
+        "Muele el queso con el aceite en batán, molino o licuadora.",
+        "Sirve la crema sobre las papas."
+      ],
+      "estado": "prueba"
+    },
+    {
+      "id": "avena_pan",
+      "nombre": "Avena con leche y pan",
+      "comida": "desayuno",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "avena",
+          "nombre": "avena",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.5,
+          "max": 2,
+          "por_unidad_g": {
+            "avena": 20,
+            "leche_evaporada": 30,
+            "azucar": 6
+          },
+          "base": 1,
+          "fuente": "Estimado: 2 cucharadas colmadas de avena (≈20 g) y 30 g de leche evaporada por taza servida",
+          "opcionales": [
+            "leche_evaporada",
+            "azucar"
+          ]
+        },
+        {
+          "id": "pan",
+          "nombre": "",
+          "unidad": "pan",
+          "plural": "panes",
+          "paso": 1,
+          "max": 3,
+          "por_unidad_g": {
+            "pan": 32
+          },
+          "base": 1,
+          "fuente": "Pan francés de panadería, unidad 32 g (Módulo I)"
+        }
+      ],
+      "pasos": [
+        "Hierve agua, agrega la avena y mueve 10 minutos.",
+        "Agrega la leche y el azúcar si hay, y sirve con el pan."
+      ],
+      "nota_validacion": "Validar gramos de avena por taza servida y si se prefiere sin azúcar."
+    },
+    {
+      "id": "mote_queso",
+      "nombre": "Mote de maíz con queso",
+      "comida": "desayuno",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "mote",
+          "nombre": "mote",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.5,
+          "max": 2,
+          "por_unidad_g": {
+            "maiz_mote": 55
+          },
+          "base": 1,
+          "fuente": "Estimado: taza de mote cocido ≈ 120 g x factor 0,46 (maíz mote, Módulo II)"
+        },
+        {
+          "id": "queso",
+          "nombre": "queso",
+          "unidad": "tajada",
+          "plural": "tajadas",
+          "paso": 1,
+          "max": 3,
+          "por_unidad_g": {
+            "queso": 19.4
+          },
+          "base": 1,
+          "fuente": "Tajada mediana delgada 19,4 g (cód. 7-22)"
+        }
+      ],
+      "pasos": [
+        "Remoja el maíz la noche anterior y cocínalo hasta que reviente.",
+        "Sirve el mote con tajadas de queso."
+      ],
+      "nota_validacion": "Peso de la taza de mote cocido no está en el Módulo I; pesar en campo."
+    },
+    {
+      "id": "habas_queso",
+      "nombre": "Habas sancochadas con queso",
+      "comida": "desayuno",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "habas",
+          "nombre": "habas",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.5,
+          "max": 2,
+          "por_unidad_g": {
+            "habas_frescas": 150
+          },
+          "base": 1,
+          "fuente": "Haba fresca sin cáscara, taza 179,8 g (cód. 11-92); se sirve con cáscara, ≈150 g comestibles"
+        },
+        {
+          "id": "queso",
+          "nombre": "queso",
+          "unidad": "tajada",
+          "plural": "tajadas",
+          "paso": 1,
+          "max": 3,
+          "por_unidad_g": {
+            "queso": 19.4
+          },
+          "base": 1,
+          "fuente": "Tajada mediana delgada 19,4 g (cód. 7-22)"
+        }
+      ],
+      "pasos": [
+        "Sancocha las habas con sal yodada.",
+        "Sirve con tajadas de queso."
+      ],
+      "nota_validacion": ""
+    },
+    {
+      "id": "camote_huevo",
+      "nombre": "Camote sancochado con huevo",
+      "comida": "desayuno",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "camote",
+          "nombre": "camote",
+          "unidad": "mitad de camote",
+          "plural": "mitades de camote",
+          "paso": 1,
+          "max": 4,
+          "por_unidad_g": {
+            "camote": 138.4
+          },
+          "base": 1,
+          "fuente": "Camote amarillo mediano 276,7 g (cód. 12-9); se sirve por mitades"
+        },
+        {
+          "id": "huevo",
+          "nombre": "",
+          "unidad": "huevo",
+          "plural": "huevos",
+          "paso": 1,
+          "max": 2,
+          "por_unidad_g": {
+            "huevo": 59.9
+          },
+          "base": 1,
+          "fuente": "Huevo mediano 59,9 g (cód. 8-3); sancochado"
+        }
+      ],
+      "pasos": [
+        "Sancocha el camote con cáscara.",
+        "Sancocha los huevos 10 minutos."
+      ],
+      "nota_validacion": ""
+    },
+    {
+      "id": "pan_palta",
+      "nombre": "Pan con palta",
+      "comida": "desayuno",
+      "estado": "borrador",
+      "requiere": [],
+      "componentes": [
+        {
+          "id": "pan",
+          "nombre": "",
+          "unidad": "pan",
+          "plural": "panes",
+          "paso": 1,
+          "max": 3,
+          "por_unidad_g": {
+            "pan": 32
+          },
+          "base": 1,
+          "fuente": "Pan francés de panadería, unidad 32 g (Módulo I)"
+        },
+        {
+          "id": "palta",
+          "nombre": "palta",
+          "unidad": "tajada",
+          "plural": "tajadas",
+          "paso": 1,
+          "max": 4,
+          "por_unidad_g": {
+            "palta": 29.4
+          },
+          "base": 1,
+          "fuente": "Tajada de palta mediana 29,4 g (cód. 3-124)"
+        }
+      ],
+      "pasos": [
+        "Corta la palta y úntala en el pan."
+      ],
+      "nota_validacion": "No necesita cocina: sirve cuando no hay leña ni gas."
+    },
+    {
+      "id": "quinua_pan",
+      "nombre": "Quinua caliente con pan",
+      "comida": "desayuno",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "quinua",
+          "nombre": "quinua caliente",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.5,
+          "max": 2,
+          "por_unidad_g": {
+            "quinua": 25,
+            "azucar": 6
+          },
+          "base": 1,
+          "fuente": "Estimado: 25 g de quinua cruda por taza de bebida espesa",
+          "opcionales": [
+            "azucar"
+          ]
+        },
+        {
+          "id": "pan",
+          "nombre": "",
+          "unidad": "pan",
+          "plural": "panes",
+          "paso": 1,
+          "max": 3,
+          "por_unidad_g": {
+            "pan": 32
+          },
+          "base": 1,
+          "fuente": "Pan francés de panadería, unidad 32 g (Módulo I)"
+        }
+      ],
+      "pasos": [
+        "Lava la quinua y hiérvela 20 minutos.",
+        "Agrega azúcar si hay y sirve caliente con pan."
+      ],
+      "nota_validacion": "Bebida espesa de quinua; validar gramos por taza."
+    },
+    {
+      "id": "cuy_papa",
+      "nombre": "Cuy guisado con papa",
+      "comida": "almuerzo",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "cuy",
+          "nombre": "cuy",
+          "unidad": "presa",
+          "plural": "presas",
+          "paso": 1,
+          "max": 2,
+          "por_unidad_g": {
+            "cuy": 76.1,
+            "aceite": 3,
+            "ajo": 2,
+            "aji_amarillo": 10
+          },
+          "base": 1,
+          "fuente": "Cuy entero mediano 304,5 g netos (cód. 6-39) dividido en 4 presas",
+          "opcionales": [
+            "aji_amarillo"
+          ]
+        },
+        {
+          "id": "papa",
+          "nombre": "",
+          "unidad": "papa",
+          "plural": "papas",
+          "paso": 0.5,
+          "max": 4,
+          "por_unidad_g": {
+            "papa": 162.5
+          },
+          "base": 1,
+          "fuente": "Papa amarilla mediana 162,5 g (cód. 12-45); sancochada entera, factor 1,02"
+        }
+      ],
+      "pasos": [
+        "Corta el cuy en 4 presas y dóralo con ajo y ají.",
+        "Agrega agua y cocina 40 minutos.",
+        "Sirve con papa sancochada."
+      ],
+      "nota_validacion": ""
+    },
+    {
+      "id": "arroz_pollo",
+      "nombre": "Arroz con pollo",
+      "comida": "almuerzo",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "pollo",
+          "nombre": "pollo",
+          "unidad": "presa",
+          "plural": "presas",
+          "paso": 1,
+          "max": 2,
+          "por_unidad_g": {
+            "pollo": 85.8,
+            "aceite": 2
+          },
+          "base": 1,
+          "fuente": "Pierna de pollo mediana 85,8 g netos (cód. 6-106)"
+        },
+        {
+          "id": "arroz",
+          "nombre": "arroz verde",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 3,
+          "por_unidad_g": {
+            "arroz": 83.1,
+            "aceite": 2,
+            "arveja_fresca": 15,
+            "zanahoria": 10,
+            "cebolla": 10
+          },
+          "base": 1,
+          "fuente": "Taza de arroz cocido (factor 0,43) con verduras estimadas",
+          "opcionales": [
+            "arveja_fresca",
+            "zanahoria"
+          ]
+        }
+      ],
+      "pasos": [
+        "Dora el pollo y retíralo.",
+        "En la misma olla fríe la cebolla, agrega el arroz, las verduras y el agua.",
+        "Cocina el pollo con el arroz hasta que seque."
+      ],
+      "nota_validacion": ""
+    },
+    {
+      "id": "frejol_arroz",
+      "nombre": "Frejol con arroz",
+      "comida": "almuerzo",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "arroz",
+          "nombre": "arroz",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 3,
+          "por_unidad_g": {
+            "arroz": 83.1,
+            "aceite": 2
+          },
+          "base": 1,
+          "fuente": "Taza de arroz cocido (193,2 g, cód. 1-20) x factor graneado 0,43"
+        },
+        {
+          "id": "frejol",
+          "nombre": "frejol",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 2.5,
+          "por_unidad_g": {
+            "frejol": 124.3,
+            "cebolla": 15,
+            "ajo": 3,
+            "aceite": 3
+          },
+          "base": 0.75,
+          "fuente": "Frijol canario sancochado, taza 243,8 g (cód. 11-37) x factor 0,51"
+        }
+      ],
+      "pasos": [
+        "Remoja el frejol la noche anterior y cocínalo hasta que esté suave.",
+        "Fríe cebolla y ajo y agrégalo al frejol.",
+        "Sirve con arroz."
+      ],
+      "nota_validacion": ""
+    },
+    {
+      "id": "higado_papa",
+      "nombre": "Hígado de pollo encebollado con papa",
+      "comida": "almuerzo",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "higado",
+          "nombre": "",
+          "unidad": "hígado",
+          "plural": "hígados",
+          "paso": 1,
+          "max": 3,
+          "por_unidad_g": {
+            "higado_pollo": 51.5,
+            "cebolla": 20,
+            "aceite": 2,
+            "tomate": 15
+          },
+          "base": 2,
+          "fuente": "Hígado de pollo mediano 51,5 g (cód. 6-99)",
+          "opcionales": [
+            "tomate"
+          ],
+          "proporcion_min": 0.25
+        },
+        {
+          "id": "papa",
+          "nombre": "",
+          "unidad": "papa",
+          "plural": "papas",
+          "paso": 0.5,
+          "max": 4,
+          "por_unidad_g": {
+            "papa": 162.5
+          },
+          "base": 1,
+          "fuente": "Papa amarilla mediana 162,5 g (cód. 12-45); sancochada entera, factor 1,02"
+        }
+      ],
+      "pasos": [
+        "Fríe la cebolla en tiras con el aceite.",
+        "Agrega el hígado picado y cocina 5 minutos sin dejar que se seque.",
+        "Sirve con papa sancochada."
+      ],
+      "nota_validacion": "Plato clave contra la anemia: hierro hemínico."
+    },
+    {
+      "id": "trucha_papa",
+      "nombre": "Trucha frita con papa",
+      "comida": "almuerzo",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "trucha",
+          "nombre": "trucha",
+          "unidad": "media trucha",
+          "plural": "medias truchas",
+          "paso": 1,
+          "max": 3,
+          "por_unidad_g": {
+            "trucha": 73.1,
+            "aceite": 5
+          },
+          "base": 1,
+          "fuente": "Trucha pequeña sin cabeza ni espinazo 146,2 g (cód. 5-81); se sirve por mitades"
+        },
+        {
+          "id": "papa",
+          "nombre": "",
+          "unidad": "papa",
+          "plural": "papas",
+          "paso": 0.5,
+          "max": 4,
+          "por_unidad_g": {
+            "papa": 162.5
+          },
+          "base": 1,
+          "fuente": "Papa amarilla mediana 162,5 g (cód. 12-45); sancochada entera, factor 1,02"
+        }
+      ],
+      "pasos": [
+        "Limpia la trucha, sálala y fríela por ambos lados.",
+        "Sirve con papa sancochada."
+      ],
+      "nota_validacion": ""
+    },
+    {
+      "id": "locro_zapallo",
+      "nombre": "Locro de zapallo con arroz",
+      "comida": "almuerzo",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "locro",
+          "nombre": "locro",
+          "unidad": "cucharón",
+          "plural": "cucharones",
+          "paso": 0.5,
+          "max": 3,
+          "por_unidad_g": {
+            "zapallo": 80,
+            "papa": 50,
+            "cebolla": 10,
+            "ajo": 2,
+            "aceite": 3,
+            "queso": 10,
+            "choclo": 15
+          },
+          "base": 1,
+          "fuente": "Estimado: cucharón de locro; validar pesos en campo",
+          "opcionales": [
+            "queso",
+            "choclo"
+          ]
+        },
+        {
+          "id": "arroz",
+          "nombre": "arroz",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 3,
+          "por_unidad_g": {
+            "arroz": 83.1,
+            "aceite": 2
+          },
+          "base": 1,
+          "fuente": "Taza de arroz cocido (193,2 g, cód. 1-20) x factor graneado 0,43"
+        }
+      ],
+      "pasos": [
+        "Fríe cebolla y ajo, agrega el zapallo y la papa picados y un poco de agua.",
+        "Cocina hasta que el zapallo se deshaga.",
+        "Agrega queso y choclo si hay. Sirve con arroz."
+      ],
+      "nota_validacion": ""
+    },
+    {
+      "id": "sopa_trigo",
+      "nombre": "Sopa de trigo con habas",
+      "comida": "almuerzo",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "sopa",
+          "nombre": "sopa",
+          "unidad": "plato",
+          "plural": "platos",
+          "paso": 0.5,
+          "max": 2.5,
+          "por_unidad_g": {
+            "trigo": 25,
+            "habas_secas": 20,
+            "papa": 60,
+            "cebolla": 10,
+            "ajo": 2,
+            "aceite": 3,
+            "zanahoria": 15
+          },
+          "base": 1,
+          "fuente": "Estimado: plato hondo de sopa; validar pesos en campo",
+          "opcionales": [
+            "zanahoria"
+          ]
+        }
+      ],
+      "pasos": [
+        "Remoja las habas y el trigo la noche anterior.",
+        "Cocínalos con la papa y la zanahoria.",
+        "Agrega el aderezo de cebolla y ajo."
+      ],
+      "nota_validacion": ""
+    },
+    {
+      "id": "sopa_quinua",
+      "nombre": "Sopa de quinua",
+      "comida": "cena",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "sopa",
+          "nombre": "sopa",
+          "unidad": "plato",
+          "plural": "platos",
+          "paso": 0.5,
+          "max": 2.5,
+          "por_unidad_g": {
+            "quinua": 25,
+            "papa": 80,
+            "zanahoria": 20,
+            "cebolla": 15,
+            "ajo": 2,
+            "aceite": 3,
+            "queso": 10
+          },
+          "base": 1,
+          "fuente": "Estimado: plato hondo de sopa; validar pesos en campo",
+          "opcionales": [
+            "zanahoria",
+            "queso"
+          ]
+        }
+      ],
+      "pasos": [
+        "Lava bien la quinua.",
+        "Fríe cebolla y ajo, agrega agua, quinua, papa y zanahoria picadas.",
+        "Cocina 25 minutos y agrega queso si hay."
+      ],
+      "nota_validacion": ""
+    },
+    {
+      "id": "olluquito",
+      "nombre": "Olluquito con arroz",
+      "comida": "cena",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "olluco",
+          "nombre": "olluquito",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 2,
+          "por_unidad_g": {
+            "olluco": 130,
+            "cebolla": 15,
+            "ajo": 3,
+            "aceite": 3,
+            "aji_amarillo": 8
+          },
+          "base": 0.75,
+          "fuente": "Olluco picado, taza de acero llena 135,1 g crudo (cód. 12-42); factor de cocción 1,05",
+          "opcionales": [
+            "aji_amarillo"
+          ]
+        },
+        {
+          "id": "arroz",
+          "nombre": "arroz",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 3,
+          "por_unidad_g": {
+            "arroz": 83.1,
+            "aceite": 2
+          },
+          "base": 1,
+          "fuente": "Taza de arroz cocido (193,2 g, cód. 1-20) x factor graneado 0,43"
+        }
+      ],
+      "pasos": [
+        "Pica el olluco en tiras sin lavarlo después de picar.",
+        "Fríe cebolla, ajo y ají, agrega el olluco y cocina tapado.",
+        "Sirve con arroz."
+      ],
+      "nota_validacion": "Tradicional con charqui; agregar charqui cuando esté en la lista."
+    },
+    {
+      "id": "sangrecita_papa",
+      "nombre": "Sangrecita con papa",
+      "comida": "cena",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "sangrecita",
+          "nombre": "sangrecita",
+          "unidad": "cucharada",
+          "plural": "cucharadas",
+          "paso": 1,
+          "max": 6,
+          "por_unidad_g": {
+            "sangrecita": 15,
+            "cebolla": 5,
+            "aceite": 1
+          },
+          "base": 2,
+          "fuente": "PROVISIONAL: cucharada de sangrecita guisada ≈ 15 g; validar",
+          "proporcion_min": 0.25
+        },
+        {
+          "id": "papa",
+          "nombre": "",
+          "unidad": "papa",
+          "plural": "papas",
+          "paso": 0.5,
+          "max": 4,
+          "por_unidad_g": {
+            "papa": 162.5
+          },
+          "base": 1,
+          "fuente": "Papa amarilla mediana 162,5 g (cód. 12-45); sancochada entera, factor 1,02"
+        }
+      ],
+      "pasos": [
+        "Lava la sangrecita cocida y desmenúzala.",
+        "Fríe cebolla, agrega la sangrecita y cocina 5 minutos.",
+        "Sirve con papa sancochada."
+      ],
+      "nota_validacion": "Plato clave contra la anemia. Requiere sangrecita ya cocida y fresca."
+    },
+    {
+      "id": "tortilla_arroz",
+      "nombre": "Tortilla de verduras con arroz",
+      "comida": "cena",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "tortilla",
+          "nombre": "",
+          "unidad": "huevo en tortilla",
+          "plural": "huevos en tortilla",
+          "paso": 1,
+          "max": 2,
+          "por_unidad_g": {
+            "huevo": 59.9,
+            "zanahoria": 20,
+            "cebolla": 15,
+            "aceite": 3
+          },
+          "base": 1,
+          "fuente": "Huevo mediano 59,9 g (cód. 8-3) con verduras estimadas",
+          "opcionales": [
+            "zanahoria"
+          ]
+        },
+        {
+          "id": "arroz",
+          "nombre": "arroz",
+          "unidad": "taza",
+          "plural": "tazas",
+          "paso": 0.25,
+          "max": 3,
+          "por_unidad_g": {
+            "arroz": 83.1,
+            "aceite": 2
+          },
+          "base": 1,
+          "fuente": "Taza de arroz cocido (193,2 g, cód. 1-20) x factor graneado 0,43"
+        }
+      ],
+      "pasos": [
+        "Bate los huevos con la zanahoria rallada y la cebolla picada.",
+        "Fríe en sartén por ambos lados.",
+        "Sirve con arroz."
+      ],
+      "nota_validacion": ""
+    },
+    {
+      "id": "mote_habas_cena",
+      "nombre": "Caldo de mote con habas",
+      "comida": "cena",
+      "estado": "borrador",
+      "requiere": [
+        [
+          "gas",
+          "lena",
+          "electrica"
+        ]
+      ],
+      "componentes": [
+        {
+          "id": "caldo",
+          "nombre": "caldo",
+          "unidad": "plato",
+          "plural": "platos",
+          "paso": 0.5,
+          "max": 2.5,
+          "por_unidad_g": {
+            "maiz_mote": 25,
+            "habas_secas": 20,
+            "papa": 50,
+            "cebolla": 10,
+            "ajo": 2,
+            "aceite": 2,
+            "col": 20
+          },
+          "base": 1,
+          "fuente": "Estimado: plato hondo de caldo; validar pesos en campo",
+          "opcionales": [
+            "col"
+          ]
+        }
+      ],
+      "pasos": [
+        "Remoja el mote y las habas la noche anterior.",
+        "Cocínalos con la papa y la col.",
+        "Agrega el aderezo de cebolla y ajo."
+      ],
+      "nota_validacion": ""
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+
+=== Chacra en cosecha (papa, habas, mote, cuy)  (0.1 s)
+  desayuno  Mote de maíz con queso
+     Hombre, 38 años        1 ½ tazas de mote, 1 tajada de queso
+     Mujer, 34 años         1 taza de mote, 1 tajada de queso
+     Hombre, 11 años        1 taza de mote, 1 tajada de queso
+     Mujer, 6 años          ½ taza de mote, 1 tajada de queso
+  almuerzo  Cuy guisado con papa
+     Hombre, 38 años        1 presa de cuy, 2 ½ papas
+     Mujer, 34 años         1 presa de cuy, 1 ½ papas
+     Hombre, 11 años        1 presa de cuy, 1 ½ papas
+     Mujer, 6 años          1 presa de cuy, 1 papa
+  cena      Papa sancochada con ensalada
+     Hombre, 38 años        2 papas, ¼ taza de ensalada
+     Mujer, 34 años         1 ½ papas, ¼ taza de ensalada
+     Hombre, 11 años        1 ½ papas, ¼ taza de ensalada
+     Mujer, 6 años          ½ papa, ¼ taza de ensalada
+  Cobertura de energía: 38 %, 34 %, 37 %, 44 %
+  Hierro: 67 %, 46 %, 47 %, 73 %
+  aviso: La despensa alcanza para cerca del 38 % de la energía que necesitan en las comidas elegidas. Komo repartió lo disponible en la misma proporción para todos.
+  aviso: Con esta despensa queda bajo: calcio, hierro, zinc.
+  aviso: Cocina con sal yodada, en poca cantidad.
+
+=== Fin de mes (arroz, frejol, papa, sangrecita)  (0.0 s)
+  desayuno  Avena con leche y pan
+     Hombre, 38 años        ½ taza de avena, 1 pan
+     Mujer, 34 años         ½ taza de avena, 1 pan
+     Hombre, 11 años        ½ taza de avena, 1 pan
+     Mujer, 6 años          ½ taza de avena, 1 pan
+  almuerzo  Frejol con arroz
+     Hombre, 38 años        2 ¼ tazas de arroz, ¾ taza de frejol
+     Mujer, 34 años         2 ¼ tazas de arroz, ¾ taza de frejol
+     Hombre, 11 años        1 ½ tazas de arroz, ½ taza de frejol
+     Mujer, 6 años          ¾ taza de arroz, ¼ taza de frejol
+  cena      Sangrecita con papa
+     Hombre, 38 años        1 cucharada de sangrecita, 2 ½ papas
+     Mujer, 34 años         3 cucharadas de sangrecita, ½ papa
+     Hombre, 11 años        1 cucharada de sangrecita, 2 papas
+     Mujer, 6 años          1 cucharada de sangrecita, 1 papa
+  Cobertura de energía: 47 %, 47 %, 47 %, 53 %
+  Hierro: 152 %, 195 %, 111 %, 181 %
+  aviso: La despensa alcanza para cerca del 48 % de la energía que necesitan en las comidas elegidas. Komo repartió lo disponible en la misma proporción para todos.
+  aviso: Con esta despensa queda bajo: calcio, vit. A, vit. C.
+  aviso: Cocina con sal yodada, en poca cantidad.
+
+=== Compras en Huánuco (pollo, hígado, verduras)  (0.7 s)
+  desayuno  Avena con leche y pan
+     Hombre, 38 años        1 taza de avena, 2 panes
+     Mujer, 34 años         1 taza de avena, 2 panes
+     Hombre, 11 años        1 taza de avena, 2 panes
+     Mujer, 6 años          1 taza de avena, 2 panes
+  almuerzo  Hígado de pollo encebollado con papa
+     Hombre, 38 años        2 hígados, 4 papas
+     Mujer, 34 años         2 hígados, 1 ½ papas
+     Hombre, 11 años        1 hígado, 1 papa
+     Mujer, 6 años          1 hígado, 1 ½ papas
+  cena      Tortilla de verduras con arroz
+     Hombre, 38 años        1 huevo en tortilla, 3 tazas de arroz
+     Mujer, 34 años         2 huevos en tortilla, 3 tazas de arroz
+     Hombre, 11 años        2 huevos en tortilla, 3 tazas de arroz
+     Mujer, 6 años          1 huevo en tortilla, 1 taza de arroz
+  Cobertura de energía: 69 %, 75 %, 75 %, 92 %
+  Hierro: 157 %, 144 %, 110 %, 198 %
+  aviso: La despensa alcanza para cerca del 76 % de la energía que necesitan en las comidas elegidas. Komo repartió lo disponible en la misma proporción para todos.
+  aviso: Con esta despensa queda bajo: calcio.
+  aviso: Cocina con sal yodada, en poca cantidad.
+
+=== Sin cocina encendida (solo pan y palta)  (0.0 s)
+  desayuno  Pan con palta
+     Hombre, 38 años        3 panes, 4 tajadas de palta
+     Mujer, 34 años         2 panes, 4 tajadas de palta
+     Hombre, 11 años        2 panes, 3 tajadas de palta
+     Mujer, 6 años          1 pan, 2 tajadas de palta
+  Cobertura de energía: 47 %, 47 %, 45 %, 51 %
+  Hierro: 109 %, 72 %, 70 %, 86 %
+  aviso: Las porciones máximas de estos platos cubren cerca del 47 % de la energía de las personas más activas. Conviene sumar un refrigerio o fiambre.
+  aviso: No hay recetas posibles para el almuerzo con esta despensa y estos utensilios.
+  aviso: No hay recetas posibles para la cena con esta despensa y estos utensilios.
+  aviso: Con esta despensa queda bajo: calcio, vit. A, vit. C, zinc.
+  aviso: Cocina con sal yodada, en poca cantidad.
